@@ -1,0 +1,54 @@
+.game-container {
+  width: 500px;
+  height: 730px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.sky {
+  width: 500px;
+  height: 580px;
+  position: absolute;
+}
+
+.ground-container {
+  height: 150px;
+  width: 580px;
+  left: 80px;
+  position:  absolute;
+}
+
+.ground {
+  background-color: brown;
+  width: 500px;
+  height: 150px;
+  position: absolute;
+  top: 580px;
+  z-index: 1;
+}
+
+.bird {
+  background-image: url(flappy_bird.gif);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 3em;
+  height: 3em;
+  /* font-size: 1.5rem; */
+  position: absolute;
+}
+
+.obstacle {
+  background-image: url("flappy_bird_pipe.png");
+  width: 60px;
+  height: 300px;
+  position: absolute;
+}
+
+.topObstacle {
+  background-image: url("flappy_bird_pipe.png");
+  width: 60px;
+  height: 300px;
+  position: absolute;
+  transform: rotate(180deg);
+}
